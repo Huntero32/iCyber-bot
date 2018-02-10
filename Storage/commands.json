@@ -1,0 +1,38 @@
+{
+    "Help": {
+    "name":"Help",
+    "group":"User",
+    "desc":"Displays a list of commands.",
+    "usage":"help [group or command]"
+    },
+    "Hook": {
+    "name":"Hook",
+    "group":"User",
+    "desc":"Displays a webhook in the chat.",
+    "usage":"hook <title>, <message>, [HEXcolor], [avatarURL]"
+    },
+    "Weather": {
+    "name":"Weather",
+    "group":"User",
+    "desc":"Displays the weather in the chat.",
+    "usage":"weather <location>"
+    },
+    "Purge": {
+    "name":"Purge",
+    "group":"Hunter",
+    "desc":"Clears how many messages in the chat",
+    "usage":"purge <number of messages> (ex. purge 10)"
+    },
+    "Ping": {
+    "name":"Ping",
+    "group":"User",
+    "desc":"pings the bot",
+    "usage":"ping"
+    },
+   "newCommand": {
+    "name":"newCommand",
+    "group":"newGroup",
+    "desc":"NewDesc!",
+    "usage":"newCommand <test>"
+    }
+}
