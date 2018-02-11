@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const weather = require('weather-js'); // Make sure you call the packages you install.
 const fs = require('fs'); // But we also need to require the fs package.
+require('groupboot.js')
 
 // We can call the JSON file here
 const commands = JSON.parse(fs.readFileSync('Storage/commands.json', 'utf8'));
